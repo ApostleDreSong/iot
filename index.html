@@ -29,7 +29,7 @@
         const res = await fetch(`https://api.facilify.africa/api/v1/relay/${action}`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ deviceId: "0000988C0B1F8A3C" })
+          body: JSON.stringify({ deviceId: "B1F8A3C" })
         });
         const data = await res.json();
         if (res.ok) {
