@@ -26,7 +26,7 @@
       const statusDiv = document.getElementById('status');
       statusDiv.textContent = 'Sending...';
       try {
-        const res = await fetch(`https://api.facilify.afica/api/v1/relay/${action}`, {
+        const res = await fetch(`https://api.facilify.africa/api/v1/relay/${action}`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
         });
