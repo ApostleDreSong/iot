@@ -85,3 +85,13 @@
 
         if (res.ok) {
           statusDiv.textContent = data.status || 'Success';
+        } else {
+          statusDiv.textContent = data.message || 'Error';
+        }
+      } catch (err) {
+        statusDiv.textContent = 'Network error';
+      }
+    }
+  </script>
+</body>
+</html>
